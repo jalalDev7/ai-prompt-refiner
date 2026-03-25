@@ -153,7 +153,7 @@ export const PromptRefiner = () => {
       </div>
 
       {/* Main Content */}
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-2" id="text-prompt">
         {/* Input Card */}
         <Card>
           <CardHeader>
