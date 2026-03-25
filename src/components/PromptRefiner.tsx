@@ -107,21 +107,6 @@ export const PromptRefiner = () => {
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-8">
-      {/* Header */}
-      <div className="mb-8 text-center">
-        <div className="mb-4 flex justify-center">
-          <div className="rounded-full bg-blue-100 p-3">
-            <Zap className="h-8 w-8 text-blue-600" />
-          </div>
-        </div>
-        <h1 className="mb-2 text-4xl font-bold text-gray-900">
-          Prompt Refiner
-        </h1>
-        <p className="text-lg text-gray-600">
-          Refine your prompts to get better AI responses
-        </p>
-      </div>
-
       {/* Remaining - Rate Limit Info */}
       {remaining !== null && (
         <div className="mb-6 rounded-lg bg-blue-50 px-4 py-3 text-sm text-blue-800">
@@ -153,7 +138,7 @@ export const PromptRefiner = () => {
       </div>
 
       {/* Main Content */}
-      <div className="grid gap-6 lg:grid-cols-2" id="text-prompt">
+      <div className="grid gap-6 lg:grid-cols-2">
         {/* Input Card */}
         <Card>
           <CardHeader>
